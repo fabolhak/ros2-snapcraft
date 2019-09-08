@@ -12,7 +12,7 @@ parts:
     plugin: colcon
     source: https://github.com/ros2/demos.git
     source-branch: dashing
-    colcon-rosdistro: crydashingstal
+    colcon-rosdistro: dashing
     colcon-source-space: demo_nodes_cpp
     build-packages: [make, gcc, g++]
     stage-packages: [ros-dashing-ros2launch]
@@ -23,5 +23,5 @@ apps:
 
 
 architectures:
-  - build-on: amd64
-    run-on: [amd64, armhf, arm64]
+  - build-on: [amd64, arm64]
+    run-on: [amd64, arm64]
