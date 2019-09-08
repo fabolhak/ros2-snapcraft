@@ -20,8 +20,3 @@ parts:
 apps:
   run:
     command: opt/ros/crystal/bin/ros2 launch demo_nodes_cpp talker_listener.launch.py
-
-
-architectures:
-  - build-on: amd64
-    run-on: [amd64, armhf, arm64]
