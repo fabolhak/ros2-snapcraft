@@ -1,5 +1,5 @@
 name: ros2-talker-listener-fabolhak
-version: '0.1'
+version: '0.2'
 summary: ROS2 Talker/Listener Example
 description: |
   This example launches a ROS2 talker and listener.
@@ -23,5 +23,5 @@ apps:
 
 
 architectures:
-  - build-on: [amd64, arm64]
-    run-on: [amd64, arm64]
+  - build-on: amd64 
+  - build-on: arm64
